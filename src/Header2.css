@@ -29,7 +29,10 @@ header {
       0 0 0 10px red,    /* Red border */
       0 0 0 20px green,  /* Green border */
       0 0 0 30px yellow; /* Yellow border */
+    padding: 20px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
   }
+  
   
 
   .slide {

@@ -11,7 +11,7 @@ const Footer2 = () => {
 
         {/* First column */}
 <div className="footerColumn">
-    <Link to="/Homepage" className="footerLink">
+    <Link to="./Homepage" className="footerLink">
         <h3>News</h3>
     </Link>
     <ul>

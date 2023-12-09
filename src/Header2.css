@@ -25,8 +25,13 @@ header {
     max-width: 100%;
     overflow: hidden;
     background-color: rgb(145, 140, 140);
+    box-shadow: 
+      0 0 0 10px red,    /* Red border */
+      0 0 0 20px green,  /* Green border */
+      0 0 0 30px yellow; /* Yellow border */
   }
   
+
   .slide {
     display: none;
   }

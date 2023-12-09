@@ -2,8 +2,6 @@
 
 import React from 'react';
 import './Footer2.css';
-import { Link } from 'react-router-dom';
-
 
 const Footer2 = () => {
   return (
@@ -15,7 +13,7 @@ const Footer2 = () => {
           <h3>News</h3>
           <ul>
             
-          <li><Link to="/Homepage">Recent Articles</Link></li>
+            <li><a href="#">Recent Articles</a></li>
             {/* Additional links for the first column can be added here */}
           </ul>
         </div>

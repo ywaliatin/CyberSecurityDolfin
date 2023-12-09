@@ -14,7 +14,7 @@ const Footer2 = () => {
           <h3>News</h3>
           <ul>
             
-            <li><Link to="/Homepage">Recent Articles</a></li>
+          <li><Link to="/Homepage">Recent Articles</Link></li>
             {/* Additional links for the first column can be added here */}
           </ul>
         </div>

@@ -34,10 +34,10 @@ header {
     
   }
   
-  @keyframes fall {
-    0% { transform: translateY(-100%); opacity: 0; }
-    50% { opacity: 1; }
-    100% { transform: translateY(100%); opacity: 0; }
+  @keyframes fallDown {
+    0% { top: -100px; }
+    50% { top: 100%; }
+    100% { top: -100px; }
   }
   
   .merry-xmas {
@@ -48,7 +48,7 @@ header {
     font-size: 2rem;
     color: red;
     opacity: 0;
-    animation: fall 5s ease-in-out infinite;
+    animation: falldown 5s ease-in-out infinite;
   }
   
 

@@ -10,16 +10,14 @@ const Footer2 = () => {
       <div className="footerContainer">
 
         {/* First column */}
-<div className="footerColumn">
-    <Link to="./Homepage" className="footerLink">
-        <h3>News</h3>
-    </Link>
-    <ul>
-        <li><Link to="/recent-articles">Recent Articles</Link></li>
-        {/* Additional links for the first column can be added here */}
-    </ul>
-</div>
-
+        <div className= "footerColumn">
+          <h3>News</h3>
+          <ul>
+            
+            <li><Link to="/Homepage">Recent Articles</a></li>
+            {/* Additional links for the first column can be added here */}
+          </ul>
+        </div>
 
         {/* Second column */}
         <div className="footerColumn">

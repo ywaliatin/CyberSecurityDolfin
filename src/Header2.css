@@ -33,24 +33,6 @@ header {
     margin: 30px; /* Adjust margin as needed */
     
   }
-  
-  @keyframes fallDown {
-    0% { top: -100px; }
-    50% { top: 100%; }
-    100% { top: -100px; }
-  }
-  
-  .merry-xmas {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2rem;
-    color: red;
-    opacity: 0;
-    animation: falldown 5s ease-in-out infinite;
-  }
-  
 
   .slide {
     display: none;

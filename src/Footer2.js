@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Footer2.css';
+import { Link } from 'react-router-dom';
 
 const Footer2 = () => {
   return (
@@ -9,14 +10,16 @@ const Footer2 = () => {
       <div className="footerContainer">
 
         {/* First column */}
-        <div className= "footerColumn">
-          <h3>News</h3>
-          <ul>
-            
-            <li><a href="#">Recent Articles</a></li>
-            {/* Additional links for the first column can be added here */}
-          </ul>
-        </div>
+<div className="footerColumn">
+    <Link to="/Homepage" className="footerLink">
+        <h3>News</h3>
+    </Link>
+    <ul>
+        <li><Link to="/recent-articles">Recent Articles</Link></li>
+        {/* Additional links for the first column can be added here */}
+    </ul>
+</div>
+
 
         {/* Second column */}
         <div className="footerColumn">
